@@ -1,14 +1,17 @@
 # 🔐 PENETRATION TESTING REPORT
 ## Footprinting, Reconnaissance & Network Scanning
 
-<p align="center">
-  <strong>Target:</strong> networkwalks.com
-  <br>
-  <strong>Internal Network:</strong> 10.15.130.0/24
-  <br>
-  <strong>Assessment Date:</strong> 14 November 2026
-</p>
+**W2-PM-FINAL  |  CYBERSECURITY  |  NETWORKWALKS**
 
+| Field | Detail |
+|---|---|
+| **Pentester Name (Cybersecurity Professional)** | **Aashish Kumar Chaudhary** |
+| **Program/Batch** | Cybersecurity Internship – B084 |
+| **Date** | 14 November 2026 |
+| **Modules Completed** | W2-PM1 (Multiple Kali Tools)<br>W2-PM5 (Zenmap Scanning) |
+| **Client/Target** | 1. Networkwalks (`networkwalks.com`)<br>2. Local LAN Network (`10.15.130.0/24`) |
+| **Permission Secured from Client?** | [Confirm Before Submission] |
+| **Phases Covered** | **Phase 1:** Reconnaissance & Footprinting – ✅ Completed<br>**Phase 2:** Scanning & Network Discovery – ✅ Completed<br>**Phase 3–5:** ✅ Completed |
 ---
 
 ## ⚠️ Disclaimer
@@ -20,6 +23,10 @@ The findings in this report are based on the command outputs collected during th
 **Authorization status:** Confirm written authorization before submission or publication.
 
 ---
+
+**Liability Disclaimer**
+
+I have performed these activities only on the systems & devices where I had secured written permission or the devices/systems that I own myself. All these materials are for education and research purpose only. Do not use anything from here to break the law. The instructor, the authors and Networkwalks are not responsible for what you do with this knowledge. Every action you take is your own responsibility. Misuse can lead to criminal charges, heavy fines, loss of your job and a permanent record. In most countries unauthorised access is a crime even when nothing is damaged.
 
 ## 📌 1. Introduction
 
@@ -332,23 +339,43 @@ The assessment identified several areas that may benefit from configuration revi
 
 ---
 
-## 📸 8. Evidence Checklist
+
+## 📸 8. Screenshots
+
+<img width="1122" height="637" alt="01-whois png" src="https://github.com/user-attachments/assets/cca08a09-5f2f-4a80-babf-02259fe808f1" />
+
+<img width="1302" height="462" alt="02-whatweb png" src="https://github.com/user-attachments/assets/03dfa10a-d5ce-4dfa-b6f5-fdb12a91da41" />
+
+<img width="787" height="377" alt="03-nslookup png" src="https://github.com/user-attachments/assets/1e908943-078a-44df-9507-de96864158c9" />
+
+<img width="1257" height="457" alt="04-curl png" src="https://github.com/user-attachments/assets/0a2827e2-2bc1-4040-abf6-10672d094ad9" />
+
+<img width="1307" height="572" alt="05-wafw00f png" src="https://github.com/user-attachments/assets/5975288d-3aec-4664-8cf3-4a75c566d44b" />
+
+<img width="1262" height="627" alt="06-dnsrecon png" src="https://github.com/user-attachments/assets/52cc4500-2057-4c36-ad83-585dec164562" />
+
+<img width="1917" height="1020" alt="07-zenmap-scan png" src="https://github.com/user-attachments/assets/9db2c837-a40a-4856-99aa-4615b25d16e2" />
+
+<img width="962" height="472" alt="08-zenmap-topology" src="https://github.com/user-attachments/assets/88ae99df-a79c-44d9-a985-f334aa878edc" />
+
+
+## 📸 9. Evidence Checklist
 
 Attach screenshots or sanitized command outputs for the following activities:
 
-- [ ] WHOIS – Domain registration details
-- [ ] WhatWeb – Website technology fingerprinting
-- [ ] Nslookup – Domain-to-IP resolution
-- [ ] cURL – HTTP response headers
-- [ ] Wafw00f – WAF detection output
-- [ ] DNSRecon – DNS enumeration results
-- [ ] Zenmap – Network scan summary and host discovery results
+- [✅] WHOIS – Domain registration details
+- [✅ ] WhatWeb – Website technology fingerprinting
+- [✅ ] Nslookup – Domain-to-IP resolution
+- [✅ ] cURL – HTTP response headers
+- [✅ ] Wafw00f – WAF detection output
+- [✅ ] DNSRecon – DNS enumeration results
+- [✅ ] Zenmap – Network scan summary and host discovery results
 
 **Evidence handling:** Before uploading evidence to GitHub, remove or mask private IP/MAC mappings where disclosure is not authorized, cookie values, session identifiers, credentials, tokens, and other sensitive information. Do not publish raw authentication or session data.
 
 ---
 
-## 📁 9. Suggested Repository Structure
+## 📁 10. Repository Structure
 
 ```text
 Networkwalks-Penetration-Testing-Report/
@@ -363,12 +390,8 @@ Networkwalks-Penetration-Testing-Report/
 │   ├── wafw00f.png
 │   ├── dnsrecon.png
 │   └── zenmap.png
-│
-└── outputs/
-    └── sanitized-output-files
 ```
 
-Only add screenshots and output files that you actually collected. Keep sensitive or unauthorized information out of the public repository.
 
 ---
 
